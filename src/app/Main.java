@@ -1,4 +1,4 @@
-package sample;
+package app;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -14,11 +14,9 @@ public class Main extends Application {
         window = primaryStage;
 
         BorderPane layout = new BorderPane();
-        window.setTitle("Hello World");
-        window.setScene(new Scene(layout, 300, 275));
+        window.setTitle("Store Manager");
+        window.setScene(new Scene(layout, 800, 600));
         window.show();
-
-        System.out.println("hi");
     }
 
 
